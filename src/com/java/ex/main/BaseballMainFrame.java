@@ -75,9 +75,7 @@ public class BaseballMainFrame extends JFrame {
 		panel4 = new JPanel();
 		kind_belbl = new JLabel("종목 - 야구");
 		jtable = new JTable(model);
-//		table = new JTable(dt);
 		jscp1 = new JScrollPane(jtable);
-//		jscp1 = new JScrollPane(table);
 		timelist = new JComboBox<String>(items);
 		detailbtn = new JButton("상세보기");
 		joinbtn = new JButton("결과추가");
@@ -107,7 +105,6 @@ public class BaseballMainFrame extends JFrame {
 		panel4.setBounds(500, 400, 100, 50);
 
 		mainbtn.addActionListener(new MyActionListener1());
-		// detailbtn.addActionListener(new MyActionListener2());
 		joinbtn.addActionListener(new MyActionListener3());
 		detailbtn.addActionListener(new MyActionListener2());
 

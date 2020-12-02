@@ -107,33 +107,6 @@ public class MemberDao {
 		}
 		return data;
 	}
-
-	
-//	 public void timList(DefaultTableModel model) {
-//		 conn = DBConnection.getConnection();
-//	        try {
-//	        	String sql = "select * from Team order by team asc";
-//	            stmt = conn.createStatement();
-//	            pstmt = conn.prepareStatement(sql);
-//	            rs = pstmt.executeQuery();
-//	            
-//	            // DefaultTableModel에 있는 기존 데이터 지우기
-//	            for (int i = 0; i < model.getRowCount();) {
-//	                model.removeRow(0);
-//	            }
-//	 
-//	            while (rs.next()) {
-//	                Object data[] = { rs.getString(1), rs.getString(2),
-//	                        rs.getInt(3), rs.getString(4) };
-//	 
-//	                model.addRow(data); //DefaultTableModel에 레코드 추가
-//	            }
-//	 
-//	        } catch (SQLException e) {
-//	        	e.printStackTrace();
-//	        } 
-//	    }
-	 
 	 
 }
 

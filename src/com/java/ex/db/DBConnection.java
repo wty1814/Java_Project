@@ -27,21 +27,6 @@ public class DBConnection {
 		}
 		return conn;
 	}
-	
-//	public static void main(String[] args) {
-//		Connection conn = null;
-//		Statement stmt = null;
-//		ResultSet rs = null;
-//		PreparedStatement pstmt = null;
-//		try {
-//			Class.forName(driver);
-//			conn = DriverManager.getConnection(url, uid, pwd);
-//			System.out.println("DB연결 완료");
-//		}catch(Exception e) {
-//			e.printStackTrace();
-//			System.out.println("DB연결 실패");
-//		}
-//	}
 
 }
 
